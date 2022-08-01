@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+ <title>Order</title>
+ 
+ 
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Lobster&family=Merriweather+Sans:ital,wght@1,500&family=Montserrat+Alternates&family=Nunito&family=Sacramento&family=Ubuntu:ital,wght@0,300;0,500;1,300;1,500&display=swap" rel="stylesheet">
+ 
+ <style>
+ 
+ body{
+  background-color: whitesmoke !important;
+  margin: 0;
+  font-family: 'Ubuntu', Arial;
+ }
+ 
+  a:link{
+   color: sandybrown;
+  }
+  
+  a:visited{
+   color: white;
+  }
+  
+  a:hover{
+   color: white;
+  }
+ 
+ .order-section{
+   background-color: black !important;
+   margin-top: 25px;
+   margin-bottom: 25px;
+   margin-left: 20px;
+   margin-right: 20px;
+   color: white !important;
+   padding: 20px 20px 30px 20px;
+   border-radius: 25px;
+   border: 2px solid white;
+   
+ }
+ 
+    .area-text{
+     color: white !important;
+     font-family: 'Ubuntu', Arial;
+     background-color: transparent !important;
+    }
+    
+  .area-text::placeholder{
+   color: white !important;
+   font-family: 'Ubuntu', Arial;
+   padding-left: 7px;
+   padding-top: 5px;
+   background-color: transparent !important;
+    }
+ 
+  
+  button{
+   background-color: white;
+   color: black;
+   width: 70px;
+   height: 30px;
+   border: 2px solid white;
+   border-radius: 7px;
+   font-family: 'Ubuntu', Arial;
+   transition: background-color 0.15s, color 0.15s;
+  }
+  
+  button:hover{
+   background-color: transparent;
+   color: white;
+   border: 2px solid white;
+  }
+  
+  .thanks-part{
+   margin-top: 15px;
+   margin-bottom: 20px;
+  }
+  
+  
+  
+ </style>
+ 
+</head>
+
+
+
+<body>
+ 
+ <main>
+  
+  <div class="order-section">
+   
+   <h2 align="center">Order</h2>
+   
+   <form action="https://formspree.io/f/mpznazey" method="post" name="form" >
+    <div align="center">
+    <label name="Name" for="">Name;
+    <input type="text" name="Name" class="area-text" placeholder="First and Last name" required>
+    </label>
+    </div>
+    
+    <br>
+    
+    <div align="center">
+    <label name="Email" for="">Email;
+    <input class="area-text" type="email" name="Email" required>
+    </label>
+    </div>
+    
+    <br>
+    
+    <div align="center">
+    <label name="Location" for="">Location;
+    <input type="text" name="Location" class="area-text" placeholder="Your address" required>
+    </label>
+  
+    </div>
+    
+    <br>
+    
+    <div align="center">
+    <label name="Contact No." for="">Contact No. ;
+    <input class="area-text" type="number" name="Contact No." required>
+    </label>
+    </div>
+    
+    <br>
+    
+    <div align="center">
+    <label name="Order" for="">Your Order;
+    <br>
+    <textarea  class="area-text" name="Order" id="" cols="30" rows="10" placeholder="What will you like to Order?" ></textarea required>
+    </label>
+    </div>
+    
+    <br>
+    
+    <div align="center">
+    <button type="submit">Submit</button>
+    </div>
+    
+    </form>
+        <div class="thanks-part">
+       <p style="margin: 0;" align="center">Thanks for your patronage.</p>
+         </div>
+         
+         <div>
+       <h5 style="font-size: 1.05rem; margin: 0; white-space: nowrap;" align="center">Click <span><a href="index.html">HERE</a></span> to go back to home page.</h5>
+       </div>
+   
+   
+  </div>
+  
+  
+  
+ </main>
+
+</body>
+
+</html>
